@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Vamos contar</h1>
+    </header>
+    <section>
+        <div>
+            <p>
+                <label for="start">Início:</label>
+                <input type="number" name="inicio" id="start">
+            </p>
+            <p>
+                <label for="end">Fim:</label>
+                <input type="number" name="final" id="end">
+            </p>
+            <p>
+                <label for="ipasso">Passo:</label>
+                <input type="number" name="passo" id="ipasso">
+            </p>
+            <p>
+                <input type="button" value="Contar" onclick="contar()">
+            </p>
+        </div>
+
+        <div id="resul">Preparando contagem...</div>
+    </section>
+
+    <footer>&copy; Curso em video</footer>
+</body>
+<script src="script.js"></script>
+</html>
