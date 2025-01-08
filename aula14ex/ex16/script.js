@@ -27,8 +27,9 @@ if(ini.value.length == 0 || fim.value.lenght == 0 || passo.value.length == 0){
         for(let c = i; c >= f; c-= p){
             mensagem.innerHTML += `${c} \u{1f449} `
         }
+        
     }
-    mensagem.innerHTML = `\u{}`
+    mensagem.innerHTML += `\u{1F3F4}`
 }
 
 
