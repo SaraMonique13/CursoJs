@@ -26,7 +26,13 @@ if(l.indexOf(Number(n)) != -1){
 
 function adicionar(){
 if(isNumber(num.value)  && ! inLista(num.value, valores)){
-    
+
+    //valores.adicionar valor no array[]
+    valores.push(Number(num.value))
+    let item = document.createAttribute('option')
+    item.text = `O valor ${num.value} foi adicionado`
+    lista.appendChild(item)
+
 }else{
     window.alert('Valor inválido ou já encontrado na lista')
 }
